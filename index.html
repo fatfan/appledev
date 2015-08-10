@@ -17,7 +17,13 @@
 			<h1>每<i>12小时</i>送出一台苹果设备</h1>
 			<div class="sideBar"></div>
 		</div>
-		<div class="m-cnt"></div>
+		<div class="m-cnt">
+			<div class="actMain">
+				<a class="actBtn" href="javascript:;"></a>
+				<span class="startTime" style="display:none;">8月7日 10:00 开领</span>
+				<span class="notice" style="display:none;"></span>
+			</div>
+		</div>
 	</div>
 	<div class="g-bd">
 		<div class="section1">
@@ -29,8 +35,10 @@
 				<a href="#actRule">活动规则&gt;&gt;</a>
 			</div>
 		</div>
-		<div class="m-cnt section2"></div>
-		<div class="m-cnt section3"></div>
+		<div class="m-cnt section2">
+			<a class="getBtn2" href="javascript:;"></a>
+		</div>
+		<div class="m-cnt section3"><a href="http://mail.163.com/dashi/activity/act6/downsurprise/index.do" target="_blank"></a></div>
 	</div>
 	<div class="g-ft">
 		<div class="m-ft">
@@ -52,6 +60,30 @@
 			</div>
 		</div>
 	</div>
+	<div class="mask" style="display:none;"></div>
+	<!--未登录弹窗-->
+	<div class="g-notLogin" style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<img src="image/dlg1_watch.png">
+		<div class="dlg-main">
+			<h1>先领一个抽奖码</h1>
+			<p>输入您的邮箱帐号，抽奖码和感恩礼就会发到您的邮箱中，若您的抽奖码为<i>CODE</i>，<em>即可获得</em><i>PRIZE</i></p>
+			<input type="text" class="u-email" value="" placeHolder="请输入您的邮箱帐号"/>
+			<a class="u-getBtn" href="">立即获取</a>
+		</div>
+	</div>
+	<!--非邮箱大师用户-->
+	<div class="g-notMatser"></div>
+	<!--邮箱大师老用户-->
+	<div class="g-oldMatser"></div>
+	<!--邮箱大师新用户-->
+	<div class="g-newMaster"></div>
+	<!--已参与-->
+	<div class="g-alreadyGet"></div>
+	<!--奖池-->
+	<div class="g-prizePool"></div>
+	<!--中奖名单-->
+	<div class="g-winnerList"></div>
 </div>
 </body>
 </html>

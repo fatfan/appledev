@@ -18,10 +18,13 @@ a{text-decoration:none;color:#959595}
 a:hover{color:#626262}
 
 /* global */
-.g-wp{width: 100%; height: 100%; min-width: 1210px;}
+.g-wp{position: relative; width: 100%; height: 100%; min-width: 1210px;}
 .g-hd{height: 882px; background-image: url("../image/bg1.jpg"); background-position: 50% 50%; background-size: cover;}
 .g-bd{position: relative; background-color: #e9e4e8;}
 .g-ft{padding: 30px 0; top: -100px; position: relative; background-color: #fff; }
+.mask{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: .6; filter: alpha(opacity=60); -moz-opacity: .6;}
+.g-notLogin {width: 659px; height: 364px; background-image: url("../image/dlg_bg.jpg"); margin: 0 auto; z-index: 1; position: relative; /* overflow: hidden; */}
+.g-notLogin img {float: left; position: relative; left: -52px; top: 40px;}
 
 /*module*/
 .m-hd, .m-cnt, .m-ft{position: relative; width: 1190px; margin: 0 auto; padding: 0 10px;}
@@ -41,13 +44,23 @@ a:hover{color:#626262}
 .u-logo{float: left; display: block; height: 100%; width: 123px; text-indent: -9999px; background: url("../image/logo.png") no-repeat 0 50%; cursor: default;}
 .sideBar {position: fixed; background-image: url("../image/next2.png"); right: 120px; top: 75px; width: 180px; height: 193px; /*z-index: 1;*/}
 i{color: #ea3e32; font-style: normal;}
+.u-email {height: 42px; width: 188px; padding: 0 22px; font-size: 14px; font-family: "微软雅黑"; background-color: #cacaca; border: none; /* color: #fff; */ margin: 10px 0;}
+a.u-getBtn {display: block; width: 232px; height: 50px; background-color: #ea3e32; color: #fff; font-size: 20px; font-family: 微软雅黑; text-align: center; line-height: 50px; border-radius: 3px;}
+.u-close {position: absolute; right: 21px; top: 20px; width: 25px; height: 25px; background-image: url("../image/cross.png"); display: block;}
 
 /* combine */
 .m-hd h1{float: left; margin: 32px 0 0 10px; font-size: 20px;}
 .m-hd h1 i{color: #ea3e32; text-decoration: none;}
+.actMain {position: relative; left: 600px; top: 400px; width: 380px; height: 200px;}
+span.startTime {display: block; margin: 10px 100px; background-image: url("../image/date.png"); background-repeat: no-repeat; padding-left: 24px; background-position-y: 50%;}
+
+a.actBtn {position: relative; left: 0px; top: 0px; height: 86px; width: 331px; display: block; background-image: url("../image/btn_getLucky.png");}
+a.actBtn.off {background-image: url("image/btn_getLucky2.png");}
 .section1 {position: relative; top: -90px; height: 239px; background-image: url("../image/top1.png"); background-position: 50% 0; background-repeat: no-repeat;}
-.section2 {top: -200px; height: 687px; background-image: url("../image/section2.jpg"); background-position: 50% 0; background-repeat: no-repeat;}
+.section2 {position: relative; top: -200px; height: 687px; background-image: url("../image/section2.jpg"); background-position: 50% 0; background-repeat: no-repeat;}
 .section3 {top: -200px; height: 308px; background-image: url("../image/section3.jpg"); background-position: 50% 0; background-repeat: no-repeat;}
+.section3 a{display: block; width: 100%; height: 100%;}
+a.getBtn2 {position: relative; display: block; left: 580px; top: 420px; height: 68px; width: 360px; /* background-color: gray; */}
 
 .main span:first-child{font-size: 22px; top: 80px; position: relative; left: 144px; color: #ea3e32;}
 /*.main span:nth-child(4){position: relative; top: 36px; left: 500px; font-size: 14px; color: #6c5240;}*/
@@ -64,4 +77,11 @@ i{color: #ea3e32; font-style: normal;}
 .m-ft p{line-height: 24px}
 .m-ft p.tip{color: #cf9b79;}
 .m-ft a{color: #ff8407; font-style: normal;}
+
+.dlg-main {float: left; width: 280px; margin-top: 40px; }
+.dlg-main h1{font-size: 30px; color: #ea3e32; font-family: "微软雅黑"; font-style: normal; font-weight: normal; line-height: 48px;}
+.dlg-main p{font-size: 16px; color: #878787; font-family: "微软雅黑"; font-style: normal; font-weight: normal; line-height: 24px;}
+.dlg-main p em{color: #2d2d2d; font-style: normal;}
+.dlg-main i {color: #0191dd; font-style: normal; padding: 0 6px; font-family: "微软雅黑";}
+
 
