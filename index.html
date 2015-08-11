@@ -62,7 +62,7 @@
 	</div>
 	<div class="mask" style="display:none;"></div>
 	<!--未登录弹窗-->
-	<div class="g-notLogin" style="display:none;">
+	<div class="g-notLogin dlg" style="display:none;">
 		<a href="javascript:;" class="u-close"></a>
 		<img src="image/dlg1_watch.png">
 		<div class="dlg-main">
@@ -73,17 +73,86 @@
 		</div>
 	</div>
 	<!--非邮箱大师用户-->
-	<div class="g-notMatser"></div>
+	<div class="g-notMatser dlg"  style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<div class="dlg-main2">
+
+			<h2 style="margin-bottom: 24px;">马上安装邮箱大师，看看中了没</h2>
+			<img src="image/qrcode.jpg"/>
+			<p>免费发送下载链接到手机</p>
+			<div class="u-inputBtn" style="margin: 6px 0 6px 128px;">
+				<input type="text" value="" placeHolder="请输入您的手机号"/>
+				<a href="javascript:;">发送</a>
+			</div>
+			<a class="" href="">去官网下载&gt;&gt;</a>
+		</div>
+		<img src="image/win.png">
+	</div>
 	<!--邮箱大师老用户-->
-	<div class="g-oldMatser"></div>
+	<div class="g-oldMatser dlg" style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<img src="image/dlg1_watch.png">
+		<div class="dlg-main">
+			<p><i>wang123456@163.com</i></p>
+			<h1>原来您是邮箱大师老用户</h1>
+			<p>您只要换一个<i>未绑定邮箱大师的新帐号</i>，抽奖码和感恩礼物就会发送到您所输入的邮箱<br/>若没有其他邮箱帐号？<i><a href="http://reg.email.163.com/unireg/call.do?cmd=register.entrance" target="_blank">注册一个吧&gt;&gt;</a></i></p>
+			<input type="text" class="u-email" value="" placeHolder="请输入您的邮箱帐号"/>
+			<a class="u-getBtn" href="">立即获取</a>
+		</div>
+	</div>
 	<!--邮箱大师新用户-->
-	<div class="g-newMaster"></div>
+	<div class="g-newMaster dlg" style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<img src="image/dlg1_watchgift.png">
+		<div class="dlg-main">
+			<h2>您获得了AppleWatch的抽奖码和一个感恩礼物<img src="image/gift.png"/></h2>
+			<p>已发送到您的邮箱<i>wang123456@163.com</i></p>
+			<a class="u-getBtn" href="">立即获取</a>
+			<a class="u-getBtn off" href="">下载邮箱大师</a>
+			<div class="notice"><p>注意：若您的抽奖码为<i>APPLE01</i>，即可获得<i>AppleWatch</i>，请在今天12点前用邮箱大师打开，核对是否中奖！</p></div>
+		</div>
+	</div>
 	<!--已参与-->
-	<div class="g-alreadyGet"></div>
+	<div class="g-alreadyGet dlg" style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<img src="image/dlg1_watchgift.png">
+		<div class="dlg-main">
+			<p>您的邮箱<i>wang123456@163.com</i></p>
+			<h2>已经收到抽奖码和感恩礼物了！</h2>
+			<a class="u-getBtn" href="">换个邮箱帐号来领</a><i><a href="">立即进入邮箱&gt;&gt;</a></i>
+			<div class="notice"><p>注意：若您的抽奖码为<i>APPLE01</i>，即可获得<i>AppleWatch</i>，请在今天12点前用邮箱大师打开，核对是否中奖！</p></div>
+		</div>
+	</div>
 	<!--奖池-->
-	<div class="g-prizePool"></div>
+	<div class="g-prizePool dlg" style="display:none;">
+		<a href="javascript:;" class="u-close"></a>
+		<h1>第7期奖池内容</h1>
+		<img src="image/prize-watch.png">
+		<img src="image/prize-air.png">
+		<img src="image/prize-6p.png">
+		<img src="image/prize-6.png">
+		<span></span>
+		<a class="u-getBtn" href="">我要免费领</a>
+		<h2>奖池累计规则</h2>
+		<p>假设用户未及时查看幸运抽奖码，则视为放弃奖品，那么奖品将放入之后一期的奖池中，当期中奖用户可获得2个奖品</p>
+	</div>
 	<!--中奖名单-->
-	<div class="g-winnerList"></div>
+	<div class="g-winnerList dlg">
+		<a href="javascript:;" class="u-close"></a>
+		<h1>每期结束公布中奖名单</h1>
+		<table>
+			<thead>
+				<tr><td></td><td>中奖用户ID</td><td>幸运抽奖码</td><td>奖品</td></tr>
+			</thead>
+			<tbody>
+				<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
+				<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
+				<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
+			</tbody>
+			
+		</table>
+		<a class="u-getBtn" href="">我要免费领</a>
+	</div>
 </div>
 </body>
 </html>
